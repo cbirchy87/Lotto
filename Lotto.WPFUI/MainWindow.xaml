@@ -1,0 +1,30 @@
+﻿<Window x:Class="Lotto.WPFUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lotto.WPFUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,-13,0">
+        <GroupBox Header="Players Numbers" Margin="52,41,531,293"/>
+        <TextBox HorizontalAlignment="Left" Margin="62,73,0,0" Text="01" TextWrapping="Wrap" VerticalAlignment="Top" Width="20"/>
+        <TextBox HorizontalAlignment="Left" Margin="87,73,0,0" Text="01" TextWrapping="Wrap" VerticalAlignment="Top" Width="20" RenderTransformOrigin="1.6,0.782"/>
+        <TextBox HorizontalAlignment="Left" Margin="162,73,0,0" Text="01" TextWrapping="Wrap" VerticalAlignment="Top" Width="20"/>
+        <TextBox HorizontalAlignment="Left" Margin="187,73,0,0" Text="01" TextWrapping="Wrap" VerticalAlignment="Top" Width="20"/>
+        <TextBox HorizontalAlignment="Left" Margin="230,73,0,0" Text="01" TextWrapping="Wrap" VerticalAlignment="Top" Width="20"/>
+        <TextBox HorizontalAlignment="Left" Margin="112,73,0,0" Text="01" TextWrapping="Wrap" VerticalAlignment="Top" Width="20"/>
+        <TextBox HorizontalAlignment="Left" Margin="137,73,0,0" Text="01" TextWrapping="Wrap" VerticalAlignment="Top" Width="20"/>
+        <CheckBox Content="LuckyDip" HorizontalAlignment="Left" Margin="62,116,0,0" VerticalAlignment="Top"/>
+        <Button Content="Set" HorizontalAlignment="Left" Margin="187,111,0,0" VerticalAlignment="Top" Width="63"/>
+        <GroupBox Header="Play" Margin="52,146,531,44"/>
+        <RadioButton Content="For Number of Games" HorizontalAlignment="Left" Margin="67,177,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="Till Jackpot" HorizontalAlignment="Left" Margin="67,197,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="Till Prize Fund" HorizontalAlignment="Left" Margin="68,217,0,0" VerticalAlignment="Top"/>
+        <Button Content="Play" HorizontalAlignment="Left" Margin="187,356,0,0" VerticalAlignment="Top" Width="63"/>
+        <GroupBox Header="Results" Margin="297,41,259,44"/>
+        <GroupBox Header="Stats" Margin="572,41,38,44"/>
+        <TextBox HorizontalAlignment="Left" Margin="306,72,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="238" Height="294"/>
+
+    </Grid>
+</Window>

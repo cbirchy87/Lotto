@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Lotto.UI/1.0.0": {
+        "dependencies": {
+          "Lotto.Biz": "1.0.0"
+        },
+        "runtime": {
+          "Lotto.UI.dll": {}
+        }
+      },
+      "Lotto.Biz/1.0.0": {
+        "runtime": {
+          "Lotto.Biz.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lotto.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Lotto.Biz/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
